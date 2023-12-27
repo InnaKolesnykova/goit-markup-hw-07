@@ -1,12 +1,32 @@
 // utils
 
-@import './utils/_vars.scss';
-@import './utils/_visually-hidden.scss';
+@import '/scss/utils/vars';
+@import '/scss/utils/visually-hidden';
 
 
 // base styles
 
-@import './base/common';
-@import './base/container';
-@import './base/reset';
+@import '/scss/base/common';
+@import '/scss/base/container';
+@import '/scss/base/reset';
+
+// components 
+
+@import '/scss/components/filter';
+@import '/scss/components/modal-form';
+@import '/scss/components/overlay';
+@import '/scss/components/socials';
+@import '/scss/components/subscribe-form'; 
+
+// layouts
+
+@import '/scss/layouts/clients';
+@import '/scss/layouts/footer';
+@import '/scss/layouts/header';
+@import '/scss/layouts/job';
+@import '/scss/layouts/portfolio';
+@import '/scss/layouts/section-1';
+@import '/scss/layouts/section-2';
+@import '/scss/layouts/team';
+
 
