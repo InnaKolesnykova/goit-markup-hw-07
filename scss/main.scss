@@ -1,32 +1,32 @@
 // utils
 
-@import '/scss/utils/vars';
-@import '/scss/utils/visually-hidden';
+@import './utils/vars';
+@import './utils/visually-hidden';
 
 
 // base styles
 
-@import '/scss/base/common';
-@import '/scss/base/container';
-@import '/scss/base/reset';
+@import './base/common';
+@import './base/container';
+@import './base/reset';
 
 // components 
 
-@import '/scss/components/filter';
-@import '/scss/components/modal-form';
-@import '/scss/components/overlay';
-@import '/scss/components/socials';
-@import '/scss/components/subscribe-form'; 
+@import './components/portfolio-btn';
+@import './components/modal-form';
+@import './components/overlay';
+@import './components/socials';
+@import './components/submission'; 
 
 // layouts
 
-@import '/scss/layouts/clients';
-@import '/scss/layouts/footer';
-@import '/scss/layouts/header';
-@import '/scss/layouts/job';
-@import '/scss/layouts/portfolio';
-@import '/scss/layouts/section-1';
-@import '/scss/layouts/section-2';
-@import '/scss/layouts/team';
+@import './layouts/clients';
+@import './layouts/footer';
+@import './layouts/header';
+@import './layouts/job';
+@import './layouts/portfolio';
+@import './layouts/section-1';
+@import './layouts/section-2';
+@import './layouts/team';
 
 
