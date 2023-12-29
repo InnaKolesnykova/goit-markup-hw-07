@@ -17,52 +17,48 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-
-.socials__link:hover,
-.socials__link:focus {
+    &__link:hover,
+    &__link:focus {
     background-color: var(--brand-color);
     fill: var(--background-color);
-}
-
-.socials__link:hover svg,
-.socials__link:focus svg {
+    }
+    
+    &__icon:hover,
+    &__icon:focus {
     fill: var(--background-color);
-}
-
-
-
-.socials__icon {
+    }
+    
+    &__icon {
     fill: rgba(175, 177, 184, 1);
     width: 20px;
     height: 20px;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 .sol-box {
     margin-left: 70px;
-}
 
-.sol-box__title {
+    &__title {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     color: var(--background-color);
     margin-bottom: 20px;
-}
-
-.sol-box__list {
+    }
+    
+    &__list {
     gap: 10px;
     display: flex;
-}
-
-.sol-box__item {
+    }
+    
+    &__item {
     list-style-type: none;
-}
-
-.sol-box__link {
+    }
+    
+    &__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -73,15 +69,17 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.sol-box__icon {
+    }
+    
+    &__icon {
     fill: rgba(255, 255, 255, 1);
     width: 20px;
     height: 20px;
+    }
+    
+    &__link:hover,
+    &__link:focus {
+    background-color: var(--brand-color);
+    }
 }
 
-.sol-box__link:hover,
-.sol-box__link:focus {
-    background-color: var(--brand-color);
-}

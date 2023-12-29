@@ -1,42 +1,40 @@
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 main {
-    display: block;
+  display: block;
 }
 
 section {
-    padding-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .adress {
-    font-style: normal;
+  font-style: normal;
 }
 
-
 .list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 
-    &:hover,
-    &:focus {
-        color: var(--brand-color);
-        fill: var(--brand-color);
-    }
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+    fill: var(--brand-color);
+  }
 }
-
