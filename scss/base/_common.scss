@@ -11,13 +11,14 @@ body {
     letter-spacing: 0.78px;
     line-height: normal;
     transition: color var(--primary-transition);
+    margin-bottom: 20px;
+    display: block;
 
     &__black {
     color: var(--main-color);
     }
 
     &__white {
-    margin-bottom: 20px;
     color: var(--background-color);
     }
 }
