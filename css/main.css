@@ -17,7 +17,7 @@
   overflow: hidden;
   border: 0;
   -webkit-clip-path: inset(-50%);
-          clip-path: inset(-50%);
+  clip-path: inset(-50%);
 }
 
 body {
@@ -34,6 +34,8 @@ body {
   line-height: normal;
   -webkit-transition: color var(--primary-transition);
   transition: color var(--primary-transition);
+  margin-bottom: 20px;
+  display: block;
 }
 .logo__black {
   color: var(--main-color);

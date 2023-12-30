@@ -1,12 +1,17 @@
-.fotter-section {
+.footer-section {
     display: flex;
     align-items: baseline;
 }
 
-.fotter {
+.footer {
     background: #2F303A;
     padding: 60px 0;
     margin: auto;
+}
+
+.footer-logo {
+    margin-bottom:20px; 
+    display:block;
 }
 
 .adress-list {
@@ -16,7 +21,6 @@
 .adress__item {
     margin-bottom: 9px;
     font-style: normal;
-
 }
 
 .adress__link-white {
